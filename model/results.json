@@ -1,0 +1,133 @@
+{
+  "results": {
+    "Logistic Regression": {
+      "Accuracy": 0.8779,
+      "AUC": 0.8692,
+      "Precision": 0.7263,
+      "Recall": 0.3403,
+      "F1": 0.4635,
+      "MCC": 0.4418
+    },
+    "Decision Tree": {
+      "Accuracy": 0.8467,
+      "AUC": 0.7009,
+      "Precision": 0.5054,
+      "Recall": 0.4895,
+      "F1": 0.4973,
+      "MCC": 0.407
+    },
+    "KNN": {
+      "Accuracy": 0.8674,
+      "AUC": 0.7718,
+      "Precision": 0.6267,
+      "Recall": 0.356,
+      "F1": 0.4541,
+      "MCC": 0.4051
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.7924,
+      "AUC": 0.804,
+      "Precision": 0.3981,
+      "Recall": 0.6649,
+      "F1": 0.498,
+      "MCC": 0.3971
+    },
+    "Random Forest": {
+      "Accuracy": 0.8982,
+      "AUC": 0.9172,
+      "Precision": 0.7251,
+      "Recall": 0.5524,
+      "F1": 0.627,
+      "MCC": 0.5764
+    },
+    "XGBoost": {
+      "Accuracy": 0.8921,
+      "AUC": 0.9163,
+      "Precision": 0.6824,
+      "Recall": 0.5681,
+      "F1": 0.62,
+      "MCC": 0.5609
+    }
+  },
+  "confusion_matrices": {
+    "Logistic Regression": [
+      [
+        2035,
+        49
+      ],
+      [
+        252,
+        130
+      ]
+    ],
+    "Decision Tree": [
+      [
+        1901,
+        183
+      ],
+      [
+        195,
+        187
+      ]
+    ],
+    "KNN": [
+      [
+        2003,
+        81
+      ],
+      [
+        246,
+        136
+      ]
+    ],
+    "Naive Bayes": [
+      [
+        1700,
+        384
+      ],
+      [
+        128,
+        254
+      ]
+    ],
+    "Random Forest": [
+      [
+        2004,
+        80
+      ],
+      [
+        171,
+        211
+      ]
+    ],
+    "XGBoost": [
+      [
+        1983,
+        101
+      ],
+      [
+        165,
+        217
+      ]
+    ]
+  },
+  "feature_names": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "PageValues",
+    "SpecialDay",
+    "Month",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "VisitorType",
+    "Weekend"
+  ]
+}
