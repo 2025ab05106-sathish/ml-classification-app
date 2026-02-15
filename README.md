@@ -92,7 +92,7 @@ Predict whether an online shopping session will result in a **purchase (Revenue)
 
 ## Deployed App
 
-Streamlit Cloud Link: _(add after deployment)_
+Streamlit Cloud Link: https://sathish-ml-classification.streamlit.app/
 
 ## Tech Stack
 
